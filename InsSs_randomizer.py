@@ -974,7 +974,7 @@ for stuff in x:
 
     # Choosing random third explosive
     elif stuff == "explosive3" and carrier == "Heavy Carrier":
-        expl2, supply = ChooseItem(Explosives_SP, supply)
+        expl3, supply = ChooseItem(Explosives_SP, supply)
         if expl3: print("Third explosive is", expl3, "(", Explosives_SP[expl3], ")")
         #print("supply points", supply)
 
